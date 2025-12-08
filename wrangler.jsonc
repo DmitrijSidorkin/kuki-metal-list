@@ -1,0 +1,7 @@
+{
+  "name": "kuki-metal-list",
+  "compatibility_date": "2025-12-08",
+  "assets": {
+    "directory": "./public"
+  }
+}
