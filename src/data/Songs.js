@@ -368,7 +368,7 @@ let songs = [
   link: "https://www.youtube.com/watch?v=MYjdfXLFHqA",
 },
 {
-  artist: "linkin Park",
+  artist: "Linkin Park",
   name: "Up From The Bottom",
   album: "From Zero (Deluxe)",
   link: "https://www.youtube.com/watch?v=97Mj6pXYMd8",
