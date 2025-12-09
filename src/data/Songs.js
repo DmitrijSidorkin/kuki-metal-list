@@ -393,15 +393,11 @@ let songs = [
 },
 ]
 
-console.log(kukiScore)
-
 songs.forEach((c) => {
   c.kukiScore = kukiScore[c.name];
   c.avgScore = c.kukiScore
   c.bestScore = Math.min(c.kukiScore);
 });
-
-console.log(songs)
 
 songs.sort((a, b) => {
   if (a.avgScore !== b.avgScore) {
@@ -413,7 +409,5 @@ songs.sort((a, b) => {
   }
   return a.artist.localeCompare(b.artist);
 });
-
-console.log(songs)
 
 export default songs;

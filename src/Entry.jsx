@@ -11,7 +11,6 @@ export default function Entry({ song, position }) {
             {song.artist} - {song.name} <br/>
             {`(${song.album})`}
           </h1>
-          <h1>{song.avgScore}</h1>
         </div>
       </div>
       <YoutubeEmbed link={song.link} />
